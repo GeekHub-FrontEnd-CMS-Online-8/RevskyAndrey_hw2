@@ -1,6 +1,11 @@
  .wrap {
-     margin: 0px auto;
+    margin: 0px auto;
     width: 750px;
+ }
+
+ .header, 
+ .ctr {
+text-align: center;
  }
 
 .img_air {
@@ -13,11 +18,14 @@
 .img_squ{
     width: 40%;
     height: 40%;
-    margin: 10px;
-    text-align: center;
+    display: block;
+    margin: 0 auto;
 }
 
-.for_img {
-    text-align: center;
+.rt {
+    text-align: right;
 }
 
+ol, ul {
+    margin: 45px auto;
+}
